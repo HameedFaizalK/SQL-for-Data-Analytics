@@ -4,7 +4,7 @@
 ### Here are some SQL COUNT tasks that can help you understand and utilize the COUNT function in various scenarios: 
 ### 1. Basic COUNT
 Task: Count the total number of rows in a table called 'transactions'.
-<br>SELECT COUNT(*) AS total_employees<br>
-<br>FROM employees;<br>
+  <br>SELECT COUNT(*) AS total_employees<br>
+  FROM employees;
 
 
