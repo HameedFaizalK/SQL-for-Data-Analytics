@@ -5,8 +5,7 @@
 - [SELECT statement](https://github.com/HameedFaizalK/SQL-for-Data-Analytics/blob/main/SQL%20SELECT%20Statement)
 - WHERE clause
 - JOIN
-- GROUP BY
-Count, Sum, Avg..Etc
+- GROUP BY <br>Count, Sum, Avg..Etc
 - ORDER BY
 - Aggregate functions
 - Subqueries
