@@ -6,6 +6,7 @@
 - WHERE clause
 - JOIN
 - GROUP BY
+Count, Sum, Avg..Etc
 - ORDER BY
 - Aggregate functions
 - Subqueries
