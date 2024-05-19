@@ -2,7 +2,7 @@
 ## Overview :
 - We are analysing Electronic Manufacturer's sales data to identify high-performing branches and products, analyze the sales patterns of various products, and understand customer behavior. The primary objective is to enhance and optimize sales strategies. We attached all datasets into here👆🏻.
 ### Here are some SQL Consepts are there that can help you understand and utilize the Analysis in various scenarios:
-- SELECT statement
+- [SELECT statement](https://github.com/HameedFaizalK/SQL-for-Data-Analytics/blob/main/SQL%20SELECT%20Statement)
 - WHERE clause
 - JOIN
 - GROUP BY
