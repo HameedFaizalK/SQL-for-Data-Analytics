@@ -13,7 +13,6 @@
 - [Views](https://github.com/HameedFaizalK/SQL-for-Data-Analytics/blob/main/SQL%20VIEWS.md)<br>Virtual tables that are based on the result of a SELECT statement. They can simplify complex queries and provide a layer of security by limiting access to certain columns or rows.
 
 
-### 1. Basic COUNT
-Task: Count t
+
 
 Feel free to connect with me on LinkedIn_(https://www.linkedin.com/in/hameed-faizal-k-30685a199/)
