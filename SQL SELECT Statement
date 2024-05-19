@@ -1,2 +1,47 @@
 # The SQL SELECT Statement
-ghjghj
+    The SELECT statement is used to select data from a database.
+## Here are some SQL SELECT statement tasks along with the example queries:
+    1. Select All Columns from a Table
+        Task: Select all columns from a table named employees.
+          ### SELECT * FROM employees; ###
+   
+    2.Select Specific Columns
+        Task: Select the first_name, last_name, and email columns from the employees table.
+          ### SELECT first_name, last_name, email FROM employees; ###
+
+    3.Filtering Rows with a WHERE Clause
+        Task: Select all columns from the employees table where the department is 'Sales'.
+          ### SELECT * FROM employees WHERE department = 'Sales'; ###
+
+    4.Using AND/OR in WHERE Clause
+        Task: Select the first_name, last_name, and salary columns from the employees table where the department is 'Sales' and the salary is greater than 50000.
+          ### SELECT first_name, last_name, salary FROM employees WHERE department = 'Sales' AND salary > 50000;
+
+    5.Ordering Results
+        Task: Select all columns from the employees table and order the results by last_name in ascending order.
+          ### SELECT * FROM employees ORDER BY last_name ASC;
+
+    6.Limit the Number of Results
+        Task: Select the top 10 highest-paid employees.
+          ### SELECT * FROM employees ORDER BY salary DESC LIMIT 10;
+
+    7.Aggregate Functions (COUNT, SUM, AVG, MAX, MIN)
+        Task: Count the number of employees in each department.
+          ### SELECT department, COUNT(*) AS employee_count FROM employees GROUP BY department;
+
+    8.Using JOIN to Combine Tables
+        Task: Select employees.first_name, employees.last_name, and departments.department_name from the employees and departments tables where the department_id matches.
+          ### SELECT employees.first_name, employees.last_name, departments.department_name
+              FROM employees
+              JOIN departments ON employees.department_id = departments.id;
+
+    9.Using Aliases
+        Task: Select the first_name and last_name from the employees table and give them aliases fname and lname.
+          ### SELECT first_name AS fname, last_name AS lname FROM employees;
+
+    10.Subqueries
+        Task: Select the names of employees who have a salary greater than the average salary.
+          ### SELECT first_name, last_name 
+              FROM employees 
+              WHERE salary > (SELECT AVG(salary) FROM employees);
+
